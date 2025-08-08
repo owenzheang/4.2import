@@ -1,5 +1,5 @@
 {
-  "name": "3.2p",
+  "name": "4.2p",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   "homepage": "https://github.com/owenzheang/3.2P#readme",
   "description": "",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongoose": "^8.17.1"
   }
 }

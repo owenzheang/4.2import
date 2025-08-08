@@ -6,4 +6,14 @@ $(document).ready(function(){
     $('#clickMeButton').click(()=>{
         clickMe();
     })
+    getProjects();
 });
+
+
+const getProjects = () => {
+  $.get('/api/projects', (response) => {
+    if (response.statusCode == 200) {
+      addCards(response.data);
+    }
+  });
+};
